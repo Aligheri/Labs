@@ -1,4 +1,4 @@
-function concat(fn, ...types) {
+function contract(fn, ...types) {
     return function (...args) {
         for (let i = 0; i < types.length - 1; i++) {
             if (typeof args[i] !== types[i].name.toLowerCase()) {
