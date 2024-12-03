@@ -17,4 +17,4 @@ function generateKey(length, characters) {
 
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 const key = generateKey(16, characters);
-console.log(key); // Пример: 'eg599gb60q926j8i'
+console.log(key);
